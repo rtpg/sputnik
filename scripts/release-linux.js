@@ -15,7 +15,7 @@ var childProcess = require('child_process');
 var platform = 'windows';
 
 var projectPath = pathUtil.resolve(__dirname, '..');
-var releasePath = pathUtil.resolve(projectPath, '..', 'release');
+var releasePath = pathUtil.resolve(projectPath, 'release');
 var workingPath = pathUtil.resolve(releasePath, 'sputnik-linux-pack');
 
 var buildPath = workingPath + '/Sputnik';
