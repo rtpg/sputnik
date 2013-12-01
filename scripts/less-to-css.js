@@ -1,6 +1,6 @@
 var fs = require('fs');
 var less = require('less');
-var wrench = require('wrench');
+
 function run(from, to) {
     process.stdout.write('LESS to CSS ' + from + ' -> ' + to);
     
